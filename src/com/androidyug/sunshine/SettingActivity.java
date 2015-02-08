@@ -17,6 +17,7 @@ public class SettingActivity extends PreferenceActivity implements OnPreferenceC
 	 // For all preferences, attach an OnPreferenceChangeListener so the UI summary can be
 	 // updated when the preference changes.
 	 bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_loc_key)));
+	 bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_temp_key)));
 	 }
 	 /**
 	 * Attaches a listener so the summary is always updated with the preference value.

@@ -8,9 +8,17 @@
     <string name="title_activity_detail">Detail Weather</string>
     <string name="title_activity_setting">Setting</string>
     
-    <!--  for preferences -->
-    <string name="pref_loc_label" translatable="false">Location</string>
+    <!--  for Location preferences -->
+    <string name="pref_loc_label" translatable="false">Location (Your City Pincode)</string>
     <string name="pref_loc_key">location</string>
     <string name="pref_loc_value">94043</string>
+    
+    
+	<!-- for Temperature Unit Prefrences -->
+	<string name="pref_temp_label">Temperature Unit</string>
+	<string name="pref_temp_key">unit</string>
+	<string name="pref_temp_unit_imperial">imperial</string>
+	<string name="pref_temp_unit_metric">metric</string>
+	
 
 </resources>
